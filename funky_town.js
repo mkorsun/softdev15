@@ -14,11 +14,11 @@ var gcd = function(a,b) {
     return a;
 };
 
-var getRandomInt(min, max) {
+var getRandomInt = function(min, max) {
     return Math.floor(Math.random() * (max - min)) + min;
 };
 
-var Students = [Max, shan. ved. ray. ish, aneesh, piotr, jake, james]
+var Students = ['Max', 'shan', 'ved', 'ray', 'ish', 'aneesh', 'piotr', 'jake', 'james'];
 
 var randomStudent = function(){
     return Students[getRandomInt(0,Students.length)];
